@@ -1,0 +1,133 @@
+.dia{
+    padding: 30px 0;
+    background-color: #343b57;
+    min-height: 100vh;
+    color: #f4feff;
+}
+
+.dias{
+    margin: 10px 0;
+    width: 80%;
+    justify-content: space-between !important;
+}
+
+.day{
+    background-color: #494bd15b;
+    text-align: center;
+    color: #f4feff;
+    margin: 8px;
+    padding: 8px;
+    height: 240px;
+    cursor: pointer;
+    justify-content: space-around !important;
+    width: 180px ;
+    transition: transform 0.5s;
+    box-shadow: 2px  2px 3px  rgb(29, 29, 29);
+}
+
+.day:hover, .pronostico:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.pronosticos{
+width: 80%;
+color: #f4feff;
+}
+
+.pronostico{
+    transition: transform 0.5s;
+    background-color: #494bd15b;
+    margin: 6px 0;
+    font-size: 19px;
+    height: 60px;
+    box-shadow: 2px  2px 3px  rgb(29, 29, 29);
+    padding: 10px 0;
+    width: 100%;
+    justify-content: space-around !important;
+    
+    text-align: center;
+}
+
+.pronostico img {
+    height: 90%;
+}
+
+.day h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+.dia-actual{
+    background-color: #494bd15b;
+    width: 80%;
+    height: 250px;
+    justify-content: space-around !important;
+    text-align: center;
+    color: #f4feff;
+    box-shadow: 2px  2px 3px  rgb(29, 29, 29);
+}
+
+.day img{
+    width: 50%;
+}
+
+.dia-actual img{
+    height: 60%;
+}
+
+.tem{
+    margin: 4px;
+
+    font-size: 22px;
+}
+
+.tem-max{
+    font-weight: 600;
+    color: rgb(255, 81, 81);
+}
+
+.tem-min{
+    font-weight: 600;
+    color: rgb(7, 7, 109);
+}
+
+
+@media ( max-width: 800px){
+    .dias{
+        width: 96%;
+        overflow: auto;
+        justify-content: flex-start !important;
+    }
+
+    .dia-actual{
+        width: 96%;
+    }
+
+    .day{
+        min-width: 160px !important;
+       
+    }
+}
+
+@media ( max-width: 500px){
+    .dia-actual{
+        height: 450px;
+        flex-direction: column;
+    }
+
+    .dia-actual img{
+       width: 50%;
+       height: auto;
+    }
+
+    .pronostico{
+        height: 250px;
+        flex-direction: column !important;
+    }
+
+    .pronostico img{
+        width: 30%;
+        height: auto;
+    }
+}

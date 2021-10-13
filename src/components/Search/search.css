@@ -1,0 +1,62 @@
+.search-section{
+    width: 100%;
+    height: 200px;
+    background-color: #343b57;
+}
+
+form{
+    width: 50%;
+}
+.list-search{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.list-search hr{
+    width: 80%;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+button{
+    color: #f4feff;
+    background-color: #494bd15b;
+    margin-top: 8px;
+    padding: 6px;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+}
+
+.card-Search{
+    position: relative;
+    text-align: center;
+    padding: 6px;
+    min-width: 180px;
+    max-width: 180px;
+    height: 300px;
+    justify-content: space-around !important;
+    margin: 8px;
+    box-shadow: 2px 2px 3px rgb(37, 37, 37);
+    background-color: #494bd15b;
+}
+
+.card-Search a{
+    padding: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 90%;
+    font-weight: 600;
+    font-variant: normal;
+    color: #252525;
+    background-color: #f4feff;
+}
+
+.card-Search img {
+    width: 50%;
+}

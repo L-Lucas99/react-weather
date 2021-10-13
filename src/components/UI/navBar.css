@@ -1,0 +1,30 @@
+nav{
+    padding:0 30px;
+    justify-content: flex-start !important;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: #494cd1;
+}
+
+nav img{
+    margin-right: 5px;
+    width: 42px;
+    animation: rotate 5s infinite linear;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #f4feff;
+    font-variant: small-caps;
+    font-size: 22px;
+}
+
+@keyframes rotate {
+    form{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
